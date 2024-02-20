@@ -1,1 +1,1 @@
-# Bitcoin_predicition
+# Stock prediction app
