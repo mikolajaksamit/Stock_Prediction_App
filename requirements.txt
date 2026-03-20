@@ -5,4 +5,4 @@ yfinance
 pandas-datareader
 prophet
 ta
-
+xgboost
