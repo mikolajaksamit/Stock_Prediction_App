@@ -1,8 +1,8 @@
+streamlit>=1.30.0
+altair==4.2.2
 pandas
-plotly
-streamlit
+numpy
 yfinance
-pandas-datareader
-prophet
-ta
 xgboost
+scikit-learn
+plotly
