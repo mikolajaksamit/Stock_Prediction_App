@@ -122,7 +122,7 @@ mae_usd = mean_absolute_error(df_ml_eval['Close'], df_ml_eval['Predicted_Close']
 st.info(
     f"💡 **Ocena modelu na danych historycznych:** Średni błąd bezwzględny (MAE) wynosi **${mae_usd:.2f}** na jednej sesji.")
 
-# --- ITERACYJNE PRZEWIDYWANIE PRZYSZŁOŚCI ---
+
 ostatnia_data = df_ml['Date'].iloc[-1]
 przyszle_daty = pd.date_range(start=ostatnia_data + pd.Timedelta(days=1), periods=n_days, freq='B')
 
